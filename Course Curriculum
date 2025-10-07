@@ -1,0 +1,65 @@
+# GenAI Architect: 70 Hands-On Projects
+
+## Course Overview
+This comprehensive course transforms you into a Generative AI Architect through 70 practical projects, covering the full spectrum from basic concepts to advanced enterprise implementations.
+
+## Module Structure
+
+### Foundations (Projects 1-15)
+- **Machine Learning Basics**: 5 projects
+- **Neural Networks Fundamentals**: 5 projects
+- **Transformers Architecture**: 5 projects
+
+### Generative Models (Projects 16-35)
+- **Text Generation**: GPT, BERT variations (10 projects)
+- **Image Generation**: GANs, Stable Diffusion (8 projects)
+- **Multimodal Models**: CLIP, DALL-E approaches (7 projects)
+
+### Advanced Architectures (Projects 36-55)
+- **RLHF & Fine-tuning**: Optimization techniques (6 projects)
+- **Production Scaling**: Efficiency and deployment (7 projects)
+- **Multi-model Systems**: Ensemble architectures (8 projects)
+
+### Enterprise Applications (Projects 56-70)
+- **Industry Solutions**: Healthcare, Finance, Retail (10 projects)
+- **Integration Projects**: API deployment, monitoring (5 projects)
+
+## Prerequisites
+- Python programming
+- Basic statistics
+- Linear algebra fundamentals
+- Familiarity with PyTorch/TensorFlow
+
+## Learning Objectives
+By the end of this course, students will:
+1. Architect complex GenAI systems for enterprise scale
+2. Implement 70+ real-world projects across industries
+3. Master deployment, optimization, and monitoring
+4. Develop production-ready GenAI solutions
+
+## Tools & Technologies Covered
+- PyTorch / TensorFlow
+- Hugging Face Transformers
+- OpenAI API ecosystem
+- AWS/Azure GenAI services
+- Custom model training pipelines
+
+## Duration & Format
+- 6 months comprehensive program
+- Weekly hands-on assignments
+- Real-world case studies
+- Live mentoring sessions
+
+## Career Outcomes
+- GenAI Solution Architect
+- Machine Learning Engineer
+- AI Product Manager
+- Enterprise AI Consultant
+
+## Certification
+- Completion Certificate
+- Project Portfolio
+- Industry Recognition
+
+---
+*Updated: October 2025*
