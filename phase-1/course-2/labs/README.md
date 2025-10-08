@@ -7,11 +7,9 @@ This lab is your first hands-on dive into machine learning! You'll build a linea
 ---
 
 ## Prerequisites
-- Python installed and basic knowledge (from Course 1)
-- Scikit-learn library: Install with `pip install scikit-learn`
-- Matplotlib for visualization: `pip install matplotlib`
-- numpy: `pip install numpy`
-- Jupyter Notebook (for interactive coding)
+- Google account for Colab access
+- Basic Python knowledge (from Course 1)
+- Familiarity with Jupyter-like interfaces (Colab provides this)
 
 ## 🏗️ **Lab Objectives**
 - Split data into train/validation/test sets
@@ -180,6 +178,124 @@ _, engineered_rmse, engineered_r2 = evaluate_model(y_val, y_val_engineered_pred,
 
 print(f"\\nImprovement with feature engineering:")
 print(f"R² improved by {engineered_r2 - val_r2:.3f}")
+```
+
+---
+
+## 🔄 **Additional Examples for Key Concepts** 📝
+
+### A. **Data Splits: Understanding Division**
+```python
+# Alternative split examples using cross-validation
+from sklearn.model_selection import cross_val_score
+
+scores = cross_val_score(LinearRegression(), X, y, cv=5)
+print(f"Cross-validation scores: {scores}")
+print(f"Average CV score: {scores.mean():.3f} (+/- {scores.std()*2:.3f})")
+```
+
+### B. **Data Normalization: Scaling Features**
+```python
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+print(f"Original X mean: {X.values.mean():.3f}, std: {X.values.std():.3f}")
+print(f"Scaled X mean: {X_scaled.mean():.3f}, std: {X_scaled.std():.3f}")
+```
+
+### C. **Classification Example with Logistic Regression**
+```python
+from sklearn.datpets asets import load_iris
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+
+# Load simple dataset
+iris = load_iris()
+X_cls = iris.data[:, :2]  # Use first 2 features
+y_cls = (iris.target != 0).astype(int)  # Binary classification
+
+X_train_cls, X_test_cls, y_train_cls, y_test_cls = train_test_split(X_cls, y_cls, test_size=0.3, random_state=42)
+
+# Train classifier
+clf = LogisticRegression(random_state=42)
+clf.fit(X_train_cls, y_train_cls)
+
+# Predict and evaluate
+y_pred_cls = clf.predict(X_test_cls)
+accuracy = accuracy_score(y_test_cls, y_pred_cls)
+print(f"Classification Accuracy: {accuracy:.3f}")
+```
+
+### D. **Model Overfitting: Regularization**
+```python
+from sklearn.linear_model import Ridge
+
+# Ridge regression (L2 regularization)
+ridge = Ridge(alpha=0.1)
+ridge.fit(X_train, y_train)
+
+ridge_pred = ridge.predict(X_val)
+ridge_rmse = mean_squared_error(y_val, ridge_pred, squared=False)
+print(f"Ridge RMSE: {ridge_rmse:.3f} (vs original {val_rmse:.3f})")
+```
+
+### E. **Feature Selection: Correlation**
+```python
+# Correlation between features
+import seaborn as sns
+
+correlation_matrix = data.corr()
+print("Feature Correlations:")
+print(correlation_matrix)
+
+# Visualize
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Feature Correlation Matrix')
+plt.show()
+```
+
+### F. **Cross-Validation: Grid Search for Hyperparameters**
+```python
+from sklearn.model_selection import GridSearchCV
+
+# Hyperparameter tuning
+param_grid = {'alpha': [0.01, 0.1, 1.0, 10.0]}
+grid_search = GridSearchCV(Ridge(), param_grid, cv=5)
+grid_search.fit(X_train, y_train)
+
+print(f"Best alpha: {grid_search.best_params_['alpha']}")
+print(f"Best score: {grid_search.best_score_:.3f}")
+```
+
+### G. **Visualization: Residual Analysis**
+```python
+# Residuals plot to check model assumptions
+residuals = y_val - y_val_pred
+plt.scatter(y_val_pred, residuals, alpha=0.7)
+plt.axhline(y=0, color='red', linestyle='--')
+plt.xlabel('Predicted Price')
+plt.ylabel('Residuals')
+plt.title('Residual Plot')
+plt.grid(True, alpha=0.3)
+plt.show()
+
+# Expect roughly constant spread around zero
+```
+
+### H. **Model Comparison: Multiple Algorithms**
+```python
+from sklearn.ensemble import RandomForestRegressor
+
+# Compare with Random Forest
+rf = RandomForestRegressor(n_estimators=100, random_state=42)
+rf.fit(X_train, y_train)
+rf_pred = rf.predict(X_val)
+
+rf_rmse = mean_squared_error(y_val, rf_pred, squared=False)
+print(".3f" {:.3f}")
+
+# Which performs better?
 ```
 
 ---
