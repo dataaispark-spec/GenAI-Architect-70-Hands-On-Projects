@@ -28,6 +28,27 @@ Comprehensive introduction to machine learning principles: data splits (train/va
 - **Predictive Modeling**: Creating linear relationships between variables
 - **Cost Functions**: Mean Squared Error (MSE)
 - **Optimization**: Gradient descent algorithm
+- **Mathematical Equation**: y = w·x + b
+- **Gradient Descent**: w := w - α·∂J/∂w
+
+**Python Example with Scikit-learn:**
+```python
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# Sample data
+X = np.array([[1], [2], [3], [4], [5]])
+y = np.array([2, 4, 6, 8, 10])
+
+# Create model
+model = LinearRegression()
+model.fit(X, y)
+
+# Results
+print(f"Slope: {model.coef_[0]}")  # Should be close to 2
+print(f"Intercept: {model.intercept_}")  # Should be close to 0
+print(f"Prediction for x=6: {model.predict([[6]])[0]}")  # Should be 12
+```
 
 ### 4. **Classification Algorithms** 🔍
 - **Binary Classification**: Yes/No decisions
