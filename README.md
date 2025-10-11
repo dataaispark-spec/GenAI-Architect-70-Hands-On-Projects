@@ -1,5 +1,5 @@
 # GenAI-Architect-70-Hands-On-Projects
-## 📖 GenAI Architect Academy – 70+ Hands-On Projects for Skill Level Up from Zero to Production
+## 📖 GenAI Architect Academy – 70+ Hands-On Projects for Skill Upgrade from Zero to Production
 # 📚 GenAI Architect: From Zero to Production 🚀
 
 > A comprehensive, hands-on video series transforming you into a Generative AI Architect through 70 structured videos. Perfect for beginners and pros alike!
