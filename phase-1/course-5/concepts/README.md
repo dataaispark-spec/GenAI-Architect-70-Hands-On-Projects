@@ -1,7 +1,3 @@
-
-> 📈 **Introduction to Generative Models**  
-> _Phase 1 · Course 5 · Introduction to Generative Models_
-
 ---
 
 # 📈 Introduction to Generative Models  
