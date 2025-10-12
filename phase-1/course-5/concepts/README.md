@@ -207,7 +207,7 @@ Imagine trying to understand a rare disease by studying a healthy population. Yo
  plt.show()
 ```
 
-#### 🔗 Applications in GenAI - Importantance Sampling
+#### 🔗 Applications in GenAI - Importance Sampling
 
 1.Variational Autoencoders (VAEs): Importance weighting improves ELBO estimates
 
