@@ -116,7 +116,7 @@ print("Estimated π:", 4 * inside / total)
 ```
 ---
 
-🔁 Rejection Sampling
+### 🔁 Rejection Sampling
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -137,7 +137,7 @@ This method is useful when the target distribution is complex but bounded.
 
 ---
 
-🔗 MCMC with Metropolis-Hastings
+### 🔗 MCMC with Metropolis-Hastings
 ```python
 def metropolis_hastings(target, proposal, steps=10000):
     x = 0
@@ -154,13 +154,16 @@ MCMC is the backbone of Bayesian generative models and probabilistic programming
 
 ---
 
-🎯 Importance Sampling – Reweighting Simplicity to Approximate Complexity
+### 🎯 Importance Sampling – Reweighting Simplicity to Approximate Complexity
+
 🔍 What Is Importance Sampling?
+
 Importance Sampling is a technique used to estimate properties of a complex probability distribution by sampling from a simpler, more tractable distribution — and then reweighting the samples to correct for the mismatch.
 
 Imagine trying to understand a rare disease by studying a healthy population. You oversample the rare cases and adjust your analysis to reflect their true rarity. That’s importance sampling.
 
 🧠 Why It Matters in Generative Modeling
+
    1.Enables Bayesian inference when direct sampling from the posterior is hard
 
    2.Used in variational inference, reinforcement learning, and Monte Carlo estimators
@@ -204,7 +207,8 @@ Imagine trying to understand a rare disease by studying a healthy population. Yo
  plt.show()
 ```
 
-🔗 Applications in GenAI
+#### 🔗 Applications in GenAI - Importantance Sampling
+
 1.Variational Autoencoders (VAEs): Importance weighting improves ELBO estimates
 
 2.Reinforcement Learning: Off-policy evaluation using importance sampling
