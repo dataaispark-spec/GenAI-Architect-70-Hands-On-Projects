@@ -206,9 +206,8 @@ GenAI is moving fast. The architecture you learn today needs to flex tomorrow. I
 
 ---
 
-### In short: 
+### Summary: 
 ### This course isn’t just *useful*, it could be **game-changing** for your GenAI Architect journey 
 — **if** you engage seriously. It gives you exactly the breadth (architecture + AI) and depth (hands-on) that hiring managers and real-world scenarios demand. 
 -So yes — it’s exactly aligned with your goal of “Snowflake + AWS + GenAI + architecture” kind of roles.
 
-If you like, I can **map** the curriculum topics in this repo to specific job-role expectations (for GenAI Architect) and highlight gaps you might want to plug. Would you like me to do that?
