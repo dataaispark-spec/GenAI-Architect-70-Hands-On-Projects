@@ -15,7 +15,7 @@
 ## 🔥 **What Makes This Unique?**
 
 - ✅ ** Prerequisites**: Any Programming Languages - Example: Python / R / Rust / Go / Java
-- - 📈 **Progressive Difficulty**: Easy → Advanced → Master
+- 📈 **Progressive Difficulty**: Easy → Advanced → Master
 - 🎬 **Video Style**: 10-20min theory + 30-60min projects
 - 🆓 **Free Tools**: Google Colab, Hugging Face, PyTorch
 - 📊 **Real-World Pacing**: 1-2 videos/day, ~75 days total
