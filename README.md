@@ -139,7 +139,7 @@ Design, build, and deploy production-grade GenAI systems.
 
 ## 🎯 **Prerequisites & Learning Path**
 
-- 🎓 **No Coding Required**: Starts with basics
+- 🎓 **Better to have Good Coding Knowledge in Anyone Programming Language: Starts with any one - Ex: Phython
 - 📅 **Time Commitment**: 75 days (flexible pacing)
 - 🛠️ **Free Resources**: All tools covered
 - 📈 **Skill Levels**: Beginner → Intermediate → Advanced → Expert
