@@ -154,7 +154,8 @@ Design, build, and deploy production-grade GenAI systems.
 | **Data Scientist**|Advanced GenAI, research|Netflix, Tesla|
 | **Product Manager**|AI strategy, ethics|Airbnb, Spotify|
 
-## Here’s a high-level introduction to why the course syllabus in **GenAI‑Architect‑70‑Hands‑On‑Projects** is *extremely* useful for someone aiming for a GenAI Architect role — and how it helps you not just get the job, but perform in real-world settings. I’ll call out the “why” in a bold way, keep it conversational, a dash of tradition (because yes, fundamentals still matter), and a bit skeptical flair (because you should always ask: “why am I doing this?”).
+
+#### Here’s a high-level introduction to why the course syllabus in **GenAI‑Architect‑70‑Hands‑On‑Projects** is *extremely* useful for someone aiming for a GenAI Architect role — and how it helps you not just get the job, but perform in real-world settings. I’ll call out the “why” in a bold way, keep it conversational, a dash of tradition (because yes, fundamentals still matter), and a bit skeptical flair (because you should always ask: “why am I doing this?”).
 
 ---
 
